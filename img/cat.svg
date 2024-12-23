@@ -1,0 +1,40 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 200 200"
+    width="200"
+    height="200"
+>
+    <!-- 背景 -->
+    <rect width="100%" height="100%" fill="#f0f0f0" />
+
+    <!-- 小猫的身体 -->
+    <ellipse cx="100" cy="130" rx="50" ry="30" fill="#ffcc00" />
+
+    <!-- 小猫的头 -->
+    <circle cx="100" cy="80" r="30" fill="#ffcc00" />
+
+    <!-- 小猫的眼睛 -->
+    <circle cx="90" cy="75" r="5" fill="#000" />
+    <circle cx="110" cy="75" r="5" fill="#000" />
+
+    <!-- 小猫的鼻子 -->
+    <polygon points="100,85 95,90 105,90" fill="#ff6699" />
+
+    <!-- 小猫的嘴巴 -->
+    <path d="M95,95 Q100,100 105,95" stroke="#000" fill="transparent" />
+
+    <!-- 小猫的耳朵 -->
+    <polygon points="80,65 90,50 85,70" fill="#ffcc00" />
+    <polygon points="120,65 110,50 115,70" fill="#ffcc00" />
+
+    <!-- 小猫的胡须 -->
+    <line x1="70" y1="90" x2="90" y2="90" stroke="#000" />
+    <line x1="110" y1="90" x2="130" y2="90" stroke="#000" />
+
+    <!-- 小猫叼着的烟 -->
+    <rect x="120" y="90" width="30" height="5" fill="#ccc" />
+    <circle cx="150" cy="92.5" r="3" fill="#ff0000" />
+    
+    <rect x="85" y="40" width="30" height="10" fill="#000" />
+    <polygon points="80,40 120,40 100,20" fill="#000" />
+</svg>
